@@ -75,7 +75,7 @@ module.exports = {
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
-  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
+  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "e86BtygJoRU8M5H6GP8CQ2AC",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
@@ -83,7 +83,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
   aitts_Voice_Id : process.env.AITTS_ID || "37",
-  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
+  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "16d5fea3ec974a94db8fa6b173eb81a2",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "GOJO SATURO",
 
